@@ -38,7 +38,7 @@ jobs:
         fi
       
     - name: Run hjk-test-v1 action
-      uses: hyeonjeong-ko/packiging-test@8.4
+      uses: hyeonjeong-ko/packiging-test@7.4
       with:
         test-variable: "친구에게 보내기!"
         send-to-function: "send_to_friends"
