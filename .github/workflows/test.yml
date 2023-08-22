@@ -57,8 +57,8 @@ jobs:
         test-variable: "테스트"
         send-to-function: "send_to_friends"
         rest-api-key: ${{ secrets.SECRET_API_KEY }}
-        access-token: ${{ secrets.SECRET_ACCESS_KEY }}
-        refresh-token: ${{ secrets.SECRET_REFRESH_KEY }}
+        access-token: ${{ secrets.SECRET_ACCESS_TOKEN }}
+        refresh-token: ${{ secrets.SECRET_REFRESH_TOKEN }}
         msg-template: "feed"
         repo-url: "https://github.com/hyeonjeong-ko/test-marketplace"
         msg-img: "https://item.kakaocdn.net/do/416976b0c05bde28d706525b7c6c97ed41d1a2caccd0c566eab28b91e2e5d306"
